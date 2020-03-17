@@ -6,15 +6,16 @@
 <p>This is a simple app which extract textual data from a given image</p>
 
 <h2>Structure</h2>
+<h2>Structure</h2>
 <ul>
     
-    <li>This app consist of two tables <ul>
+        <li>This app consist of two tables </li>
         <li>Image(which store image file)</li>
         <li>Image_text(which store textual data of image(oneToOne (Image)))</li>
-    </ul> </li>
-    <li>Input:  Image file</li>
-    <li>Output :Textual data of image</li>
+        <li>Input:  Image file</li>
+        <li>Output :Textual data of image</li>
 </ul>
+
 
 <h2>Installation</h2>
 <ul>
