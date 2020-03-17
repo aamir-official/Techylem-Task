@@ -35,13 +35,13 @@
 <p>We want rectangle around textual data</p>
 <code>
 
-n_boxes = len(d['text']) #d=dictionary data of picture
-for i in range(n_boxes):
-    if int(d['conf'][i]) > 60:
-        (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
-        img = cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+n_boxes = len(d['text']) #d=dictionary data of picture <br>
+for i in range(n_boxes):<br>
+    if int(d['conf'][i]) > 60:<br>
+        (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])<br>
+        img = cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)<br>
 
-cv2.imshow('img', img)
-cv2.waitKey(0)
+cv2.imshow('img', img)<br>
+cv2.waitKey(0)<br>
 
 </code>
