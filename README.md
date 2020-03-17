@@ -21,7 +21,7 @@
     <li>install python</li>
     <li>install django</li>
     <li>install tesearact(python library)
-    <li>install tesearact(python library)
+    
         <ul>
             <li>mac:conda(or whatever virtual envoirnment your are using)</li>
             <li>windows:install binary file in your pc <a href="https://github.com/UB-Mannheim/tesseract/wiki">Link</a> Then add path to your views pytesseract.tesseract_cmd = '< your path of tesseract installer exe >'</li>
