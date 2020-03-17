@@ -9,6 +9,10 @@
 
 <ul>
     <li>This app structure consist of two tables(Images,Text_image)</li>
+    <li>Image(which store image file)</li>
+    <li>Image_text(which store textual data of image(oneToOne (Image)))</li>
+    <li>Input:  Image file</li>
+    <li>Output :Textual data of image</li>
 </ul>
 
 
