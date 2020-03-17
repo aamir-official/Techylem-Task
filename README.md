@@ -21,13 +21,12 @@
     <li>install python</li>
     <li>install django</li>
     <li>install tesearact(python library)
-    
-        <ul>
             <li>mac:conda(or whatever virtual envoirnment your are using)</li>
             <li>windows:install binary file in your pc <a href="https://github.com/UB-Mannheim/tesseract/wiki">Link</a> Then add path to your views pytesseract.tesseract_cmd = '< your path of tesseract installer exe >'</li>
-        </ul>
     </li>
     <li>Make migrations</li>
     <li>Url for adding images: 127.0.0.1:8000</li>
     <li>Url for getting  data from rest API: 127.0.0.1:8000/images</li>
+    
+    
 </ul>
